@@ -2,15 +2,41 @@
     {
         "id":1,
         "title": "Portfolio Website",
+        "url":"abhik555.github.io",
         "link": "",
         "img": "",
-        "lang": ""
+        "lang": "NextJS"
     },
     {
         "id":2,
         "title": "Online Banking System",
+        "url":"",
         "link": "https://github.com/Abhik555/Online-Banking-System",
         "img": "",
         "lang":"Java"
+    },
+    {
+        "id":3,
+        "title": "Quiz Web App",
+        "url":"https://abhik555.github.io/quiz_web_app/",
+        "link": "https://github.com/Abhik555/quiz_web_app",
+        "img": "",
+        "lang":"Flutter Web"
+    },
+    {
+        "id":4,
+        "title": "InboxIn",
+        "url":"",
+        "link": "https://github.com/Abhik555/InboxIn",
+        "img": "https://github.com/Abhik555/InboxIn/blob/574ccf5c75fcb35c1823180e009c4eae606e01c9/InboxIn%20Logo.png",
+        "lang":"Python"
+    },
+    {
+        "id":5,
+        "title": "Grocery Store Management System",
+        "url":"",
+        "link": "https://github.com/Abhik555/Grocery-Store-Mangement-XII-Project",
+        "img": "",
+        "lang":"Python"
     }
 ]

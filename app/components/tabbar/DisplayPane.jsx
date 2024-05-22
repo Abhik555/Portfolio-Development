@@ -2,6 +2,8 @@ import DisplayBox from "../general/DisplayBox";
 
 export default function DisplayPane({tab}){
 
+    const skills = [];
+
     if(tab===0){
     return(
         <div className="grid grid-cols-3 gap-4 mt-7">

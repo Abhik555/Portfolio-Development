@@ -1,0 +1,12 @@
+[
+    {
+        "id":"skills",
+        "skills":[
+            "Python",
+            "Java",
+            "Flutter",
+            "NextJS",
+            "TailwindCSS"
+        ]
+    }
+]
