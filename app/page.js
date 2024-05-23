@@ -39,9 +39,9 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-normal justify-items-center mb-96 pt-5 pl-3 pr-3">
+    <main className="flex h-auto flex-col items-center justify-normal justify-items-center  pt-5 pl-3 pr-3">
       <AppBar />
-      <div className="flex flex-col justify-evenly gap-5 lg:flex-row lg:justify-between w-full p-52 pr-14">
+      <div className="flex flex-col justify-evenly gap-5 lg:flex-row lg:justify-between w-full p-24 pt-32">
         {renderSwitch(tab)}
         <FloatingBar icons={icons} selected={tab} setSelected={setTab}/>
       </div>

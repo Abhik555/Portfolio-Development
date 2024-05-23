@@ -1,6 +1,6 @@
 export default function TabBar({tab , setTab}){
 
-    const tabs = ['Certificates' , 'Skills']
+    const tabs = ['Skills' , 'Certificates']
 
     return(
         <div className="flex flex-row gap 5 justify-start items-center w-fit h-auto">

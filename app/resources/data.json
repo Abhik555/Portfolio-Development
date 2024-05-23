@@ -2,11 +2,22 @@
     {
         "id":"skills",
         "skills":[
-            "Python",
-            "Java",
-            "Flutter",
-            "NextJS",
-            "TailwindCSS"
+            {
+                "title":"Python",
+                "img": "../../resources/images/python.png"
+            },
+            {
+                "title":"Java",
+                "img": "../../resources/images/java.png"
+            },
+            {
+                "title":"Flutter",
+                "img": "../../resources/images/flutter.jpg"
+            },
+            {
+                "title":"NextJS",
+                "img": "../../resources/images/nextjs.jpeg"
+            }
         ]
     }
 ]

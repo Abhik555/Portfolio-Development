@@ -21,9 +21,9 @@ export default function Hero() {
   return (
     <div className="flex flex-col justify-start gap-5">
       <div className="flex flex-col gap-2 justify-start">
-        <h className="font-extrabold text-8xl bg-gradient-to-br from-blue-800 to-cyan-600 bg-clip-text text-transparent mb-3">
+        <h1 className="font-extrabold text-8xl bg-gradient-to-br from-blue-800 to-cyan-600 bg-clip-text text-transparent mb-3">
           Hello
-        </h>
+        </h1>
         <span>
           <TypeAnimation
             sequence={[
