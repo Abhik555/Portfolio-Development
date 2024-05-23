@@ -1,19 +1,38 @@
 import Image from "next/image";
+import MediaQuery from "react-responsive";
 
 export default function ProjectItem({ Title, link, lang, isImage, Img }) {
   if (isImage) {
     return (
-      <div className="flex h-auto w-auto cursor-pointer hover:h-[210px] hover:w-[210px] ease-in-out duration-150">
-        <Image
-          src={Img}
-          width={200}
-          height={200}
-          link={link}
-          onClick={() => {
-            location.href = link;
-          }}
-          priority
-        />
+      <div>
+        <MediaQuery minWidth={1024}>
+          <div className="flex h-auto w-auto cursor-pointer hover:h-[210px] hover:w-[210px] ease-in-out duration-150">
+            <Image
+              src={Img}
+              width={200}
+              height={200}
+              link={link}
+              onClick={() => {
+                location.href = link;
+              }}
+              priority
+            />
+          </div>
+        </MediaQuery>
+        <MediaQuery maxWidth={640}>
+          <div className="flex h-[210px] w-[210px] justify-center items-center cursor-pointer hover:h-[210px] hover:w-[210px] ease-in-out duration-150">
+            <Image
+              src={Img}
+              width={200}
+              height={200}
+              link={link}
+              onClick={() => {
+                location.href = link;
+              }}
+              priority
+            />
+          </div>
+        </MediaQuery>
       </div>
     );
   } else {
