@@ -45,6 +45,7 @@ export default function Home() {
         {renderSwitch(tab)}
         <FloatingBar icons={icons} selected={tab} setSelected={setTab}/>
       </div>
+      <footer></footer>
     </main>
   );
 }

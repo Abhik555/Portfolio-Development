@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>Abhik Ghosh</title>
       </head>
-      <body className="h-screen w-full bg-gradient-to-br from-black to-[#130149]">{children}</body>
+      <body className="h-full w-full bg-gradient-to-br from-black to-[#130149]">{children}</body>
     </html>
   );
 }

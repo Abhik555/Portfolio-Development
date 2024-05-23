@@ -11,11 +11,10 @@ export default function Hero() {
     return links[index];
   }
 
-  const icons = [<BsGithub />, <BsLinkedin />, <MdOutlineAlternateEmail />];
+  const icons = [<BsGithub />, <BsLinkedin />];
   const links = [
     "https://github.com/abhik555",
     "https://www.linkedin.com/in/abthedev",
-    "abhik555@hotmail.com",
   ];
 
   return (

@@ -7,6 +7,11 @@ const nextConfig = {
             hostname: 'udemy-certificate.s3.amazonaws.com',
             port: '',
           },
+          {
+            protocol: 'https',
+            hostname: 'raw.githubusercontent.com',
+            port: ''
+          },
         ],
       },
 };

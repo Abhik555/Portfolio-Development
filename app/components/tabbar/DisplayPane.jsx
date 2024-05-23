@@ -35,7 +35,7 @@ export default function DisplayPane({ tab }) {
                   <IconContext.Provider key={index} value={{fill:"white" , color:"white"}}>
                     <FaPython size={150} />
                   </IconContext.Provider>
-                  <h3 className="text-center font-semibold text-lg">Python</h3>
+                  <h3 key={index} className="text-center font-semibold text-lg">Python</h3>
                 </div>
               );
             case 1:
@@ -44,7 +44,7 @@ export default function DisplayPane({ tab }) {
                       <IconContext.Provider key={index} value={{fill:"white" , color:"white"}}>
                         <FaJava size={150} />
                       </IconContext.Provider>
-                      <h3 className="text-center font-semibold text-lg">Java</h3>
+                      <h3 key={index} className="text-center font-semibold text-lg">Java</h3>
                     </div>
                   );
             case 2:
@@ -53,7 +53,7 @@ export default function DisplayPane({ tab }) {
                       <IconContext.Provider key={index} value={{fill:"white" , color:"white"}}>
                         <RiFlutterFill size={150} />
                       </IconContext.Provider>
-                      <h3 className="text-center font-semibold text-lg">Flutter</h3>
+                      <h3 key={index} className="text-center font-semibold text-lg">Flutter</h3>
                     </div>
                   );
             case 3:
@@ -62,7 +62,7 @@ export default function DisplayPane({ tab }) {
                         <IconContext.Provider key={index} value={{fill:"white" , color:"white"}}>
                         <RiNextjsFill size={150} />
                         </IconContext.Provider>
-                        <h3 className="text-center font-semibold text-lg">NextJS</h3>
+                        <h3 key={index} className="text-center font-semibold text-lg">NextJS</h3>
                     </div>
                 );
             
