@@ -4,19 +4,19 @@
         "skills":[
             {
                 "title":"Python",
-                "img": "../../resources/images/python.png"
+                "img": "https://raw.githubusercontent.com/Abhik555/Portfolio-Development/master/app/resources/images/python.png"
             },
             {
                 "title":"Java",
-                "img": "../../resources/images/java.png"
+                "img": "https://raw.githubusercontent.com/Abhik555/Portfolio-Development/master/app/resources/images/java.png"
             },
             {
                 "title":"Flutter",
-                "img": "../../resources/images/flutter.jpg"
+                "img": "https://raw.githubusercontent.com/Abhik555/Portfolio-Development/master/app/resources/images/flutter.jpg"
             },
             {
                 "title":"NextJS",
-                "img": "../../resources/images/nextjs.jpeg"
+                "img": "https://raw.githubusercontent.com/Abhik555/Portfolio-Development/master/app/resources/images/nextjs.jpeg"
             }
         ]
     }

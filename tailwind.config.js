@@ -11,7 +11,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "python": "url('/resources/images/python.png')",
+        "python": "url('https://raw.githubusercontent.com/Abhik555/Portfolio-Development/blob/master/app/resources/images/python.png')",
       },
     },
   },

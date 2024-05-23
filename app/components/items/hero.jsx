@@ -21,10 +21,10 @@ export default function Hero() {
   return (
     <div className="flex flex-col justify-start gap-5">
       <div className="flex flex-col gap-2 justify-start">
-        <h1 className="font-extrabold text-8xl bg-gradient-to-br from-blue-800 to-cyan-600 bg-clip-text text-transparent mb-3">
-          Hello
+        <h1 className="font-extrabold text-8xl h-[112px] bg-gradient-to-br from-blue-800 to-cyan-600 bg-clip-text text-transparent mb-3">
+          Hey!
         </h1>
-        <span>
+        <span className="">
           <TypeAnimation
             sequence={[
               "I'm Abhik Ghosh",
@@ -49,6 +49,7 @@ export default function Hero() {
         {icons.map((icon, index) => {
           return (
             <a
+            key={index}
               href={redirect(index)}
               className="flex justify-center items-center w-12 h-12 rounded-full bg-transparent"
             >
