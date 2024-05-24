@@ -1,8 +1,6 @@
-import { BsGithub } from "react-icons/bs";
-import SocialHandel from "../general/Socials";
 import MediaQuery from "react-responsive";
 import ContactWidget from "@/app/contactbox/contactwidget";
-import { MdMailOutline } from "react-icons/md";
+
 
 export default function Contact() {
   return (
@@ -11,7 +9,7 @@ export default function Contact() {
         <div className="flex flex-row gap-5 h-[80%] w-[70%] justify-between">
           <div className="flex flex-col justify-center items-start gap-4">
             <h1 className="bg-gradient-to-br from-blue-800 to-cyan-600 text-4xl font-extrabold bg-clip-text text-transparent ">
-              Let's Connect
+              Let&apos;s Connect
             </h1>
             <div>
               <h2 className="text-white text-2xl font-semibold">
@@ -31,7 +29,7 @@ export default function Contact() {
         <div className="flex flex-col gap-5 h-[80%] w-[70%] justify-center items-center">
           <div className="flex flex-col justify-center items-center gap-4">
             <h1 className="bg-gradient-to-br from-blue-800 to-cyan-600 text-4xl font-extrabold bg-clip-text text-transparent ">
-              Let's Connect
+              Let&apos;s Connect
             </h1>
             <div>
               <h2 className="text-white text-center text-2xl font-semibold">
@@ -42,7 +40,7 @@ export default function Contact() {
               </h2>
             </div>
           </div>
-          <div>
+          <div className="flex flex-row justify-center items-center w-fit m-3">
             <ContactWidget />
           </div>
         </div>
@@ -50,11 +48,3 @@ export default function Contact() {
     </div>
   );
 }
-
-/*
-<SocialHandel
-        icon={<BsGithub />}
-        label={"Github"}
-        link={"https://github.com/abhik555"}
-      />
-      */

@@ -2,60 +2,18 @@ import { TypeAnimation } from "react-type-animation";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { IconContext } from "react-icons";
-import MediaQuery, { useMediaQuery } from "react-responsive";
-import tailwindConfig from "@/tailwind.config";
-
-//, background: "linear-gradient(to right, rgba(9,9,121,1) 11%, rgba(0,212,255,1) 100%)" , backgroundClip: "text" , WebkitTextFillColor:"transparent"
+import MediaQuery from "react-responsive";
 
 export default function Hero() {
   function redirect(index) {
     return links[index];
   }
 
-  const icons = [<BsGithub />, <BsLinkedin />];
+  const icons = [<BsGithub key={0} />, <BsLinkedin key={1} />];
   const links = [
     "https://github.com/abhik555",
     "https://www.linkedin.com/in/abthedev",
   ];
-
-  var typesize;
-  var align;
-  var text;
-
-  /*
-  if (bool) {
-    typesize = "4em";
-    align = "left";
-    text = (
-      <span className=" flex flex-col w-full">
-        <TypeAnimation
-          sequence={[
-            "I'm Abhik Ghosh",
-            1000,
-            "I'm a Student",
-            1000,
-            "I'm a Passionate Developer",
-            1000,
-            "I'm a Quick Learner",
-            1000,
-            "I'm a Tech Enthusiast",
-            1000,
-          ]}
-          wrapper="span"
-          speed={50}
-          style={{ fontSize: "3em", display: "inline-block" }}
-          repeat={Infinity}
-        />
-      </span>
-    );
-  } else {
-    typesize = "1.5em";
-    align = "center";
-    text = (
-      <h1 className="text-white font-semibold text-xl"> I'm Abhik Ghosh </h1>
-    );
-  }
-  */
 
   return (
     <div className="flex flex-col justify-start gap-5">

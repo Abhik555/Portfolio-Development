@@ -1,6 +1,5 @@
 import ProjectItem from "./ProjectItem";
 import proj from "../../resources/projects.json"
-import TestBox from "../general/testbox";
 
 export default function ProjectDisplayPane(){
 

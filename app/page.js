@@ -61,7 +61,7 @@ export default function Home() {
           <MediaQuery minWidth={1024}>{app}</MediaQuery>
         </div>
       </MediaQuery>
-      <footer></footer>
+      <footer className="h-56"></footer>
     </main>
   );
 }

@@ -1,5 +1,3 @@
-import { FormEvent } from "react";
-
 export default function ContactWidget() {
   async function onSubmit(event) {
     event.preventDefault()

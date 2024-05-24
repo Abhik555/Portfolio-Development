@@ -12,6 +12,7 @@ export default function ProjectItem({ Title, link, lang, isImage, Img }) {
               width={200}
               height={200}
               link={link}
+              alt="error loading"
               onClick={() => {
                 location.href = link;
               }}
@@ -26,6 +27,7 @@ export default function ProjectItem({ Title, link, lang, isImage, Img }) {
               width={200}
               height={200}
               link={link}
+              alt="error loading"
               onClick={() => {
                 location.href = link;
               }}
