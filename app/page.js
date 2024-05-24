@@ -14,10 +14,10 @@ import Contact from "./components/items/contact";
 import MediaQuery, { useMediaQuery } from "react-responsive";
 
 const icons = [
-  <MdOutlineAccountCircle />,
-  <GrCertificate />,
-  <FaCode />,
-  <IoMail />,
+  <MdOutlineAccountCircle key={0}/>,
+  <GrCertificate key={1}/>,
+  <FaCode key={2} />,
+  <IoMail key={3}/>,
 ];
 
 export default function Home() {
