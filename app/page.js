@@ -23,7 +23,7 @@ const icons = [
 export default function Home() {
   const [tab, setTab] = useState(0);
 
-  var app= <FloatingBar icons={icons} selected={tab} setSelected={setTab} />;
+  var app = <FloatingBar icons={icons} selected={tab} setSelected={setTab} />;
 
   function renderSwitch(index) {
     switch (index) {
@@ -48,12 +48,19 @@ export default function Home() {
   return (
     <main className="flex h-auto flex-col items-center justify-normal justify-items-center  pt-5 pl-3 pr-3">
       <AppBar bar={app} />
-      <div className="flex flex-col justify-evenly gap-5 lg:flex-row lg:justify-between w-full p-24 pt-8 lg:pt-32">
-        {renderSwitch(tab)}
-        <MediaQuery minWidth={1024}>
-          {app}
-        </MediaQuery>
-      </div>
+
+      <MediaQuery minWidth={1024}>
+        <div className="flex flex-col justify-evenly gap-5 lg:flex-row lg:justify-between w-full p-24 pt-8 lg:pt-32">
+          {renderSwitch(tab)}
+          <MediaQuery minWidth={1024}>{app}</MediaQuery>
+        </div>
+      </MediaQuery>
+      <MediaQuery maxWidth={1024}>
+      <div className="flex flex-col justify-center gap-5 lg:flex-row lg:justify-between w-full p-24 pt-8 lg:pt-32">
+          {renderSwitch(tab)}
+          <MediaQuery minWidth={1024}>{app}</MediaQuery>
+        </div>
+      </MediaQuery>
       <footer></footer>
     </main>
   );
