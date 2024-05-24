@@ -19,7 +19,7 @@ export default function ProjectItem({ Title, link, lang, isImage, Img }) {
             />
           </div>
         </MediaQuery>
-        <MediaQuery maxWidth={640}>
+        <MediaQuery maxWidth={1024}>
           <div className="flex h-[210px] w-[210px] justify-center items-center cursor-pointer hover:h-[210px] hover:w-[210px] ease-in-out duration-150">
             <Image
               src={Img}

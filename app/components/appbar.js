@@ -9,7 +9,7 @@ export default function AppBar({ bar }) {
           Blog
         </a>
       </div>
-      <MediaQuery maxWidth={640}>
+      <MediaQuery maxWidth={1024}>
         {bar}
       </MediaQuery>
     </div>

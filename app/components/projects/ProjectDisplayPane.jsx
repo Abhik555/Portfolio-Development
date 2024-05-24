@@ -5,7 +5,6 @@ import TestBox from "../general/testbox";
 export default function ProjectDisplayPane(){
 
     const pro = proj;
-    const projmap = {}
 
     return(
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">

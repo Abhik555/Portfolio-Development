@@ -85,7 +85,7 @@ export default function Hero() {
             />
           </span>
         </MediaQuery>
-        <MediaQuery maxWidth={640}>
+        <MediaQuery maxWidth={1024}>
         <span className=" flex flex-col w-full h-28">
             <TypeAnimation
               sequence={[

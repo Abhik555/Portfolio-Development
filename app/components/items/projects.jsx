@@ -12,7 +12,7 @@ export default function Projects() {
         <ProjectDisplayPane />
       </MediaQuery>
 
-      <MediaQuery maxWidth={640}>
+      <MediaQuery maxWidth={1024}>
         <div className="flex flex-col justify-center items-center">
           <ProjectDisplayPane />
         </div>
